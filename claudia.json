@@ -1,0 +1,7 @@
+{
+  "lambda": {
+    "role": "spector_intro-executor",
+    "name": "spector_intro",
+    "region": "us-east-1"
+  }
+}
