@@ -2,9 +2,10 @@
   "name": "spector_intro",
   "version": "1.0.0",
   "description": "a babylonjs app",
-  "main": "index.js",
+  "main": "lambda.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "start": "claudia create --name web-api-test --region us-east-1 --api-module web",
+    "deploy": "claudia update"
   },
   "keywords": [
     "babylonjs",
@@ -16,9 +17,6 @@
   "author": "Riyadh Uddin",
   "license": "MIT",
   "devDependencies": {
-    "claudia": "^5.14.0",
-    "spectorjs": "^0.9.27",
-    "webpack": "^5.68.0",
-    "webpack-cli": "^4.9.2"
+    "claudia": "^5.14.0"
   }
 }
